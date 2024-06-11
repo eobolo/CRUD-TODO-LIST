@@ -1,0 +1,142 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(50, 50, 50);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    height: 55rem;
+}
+.first-div {
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+.text-div {
+    flex: 12;
+    padding: 3px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+.text-div input {
+    width: 94.5%;
+    height: 52%;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid rgb(27, 24, 24);
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.add-div {
+    flex: 1;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    border-radius: 10px;
+    border: 3px dashed #fff;
+    cursor: pointer;
+    margin-left: 5px;
+    background-color: rgb(11, 111, 11);
+}
+.add-div:hover {
+    background-color: rgb(8, 161, 8);
+}
+.add-div:active {
+    background-color: rgb(98, 255, 98);
+}
+.add-div span {
+    font-size: 30px;
+}
+
+.second-div {
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    height: max-content;
+    padding: 0 0 4rem 0;
+}
+
+.s-first-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+.list-heading-div h1 {
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.list-button-div {
+    display: grid;
+    place-items: center;
+    width: 5rem;
+}
+.list-button-div button {
+    width: 80px;
+    height: 50px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid black;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+}
+.s-second-div hr{
+    width: 96%;
+}
+.encompass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1rem 1rem;  
+}
+.div-inplab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.div-inplab input {
+    display: block;
+    width: 45px;
+    height: 45px;
+}
+.div-inplab label {
+    margin-left: 10px;
+    display: block;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.div-span {
+    display: grid;
+    place-items: center;
+    width: 55px;
+    height: 55px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: rgb(129, 12, 12);
+    cursor: pointer;
+}
+.div-span:hover {
+    background-color: rgb(223, 17, 17);
+}
+.div-span:active {
+    background-color: rgb(255, 95, 95);
+}
+.div-span span {
+    font-size: 35px;
+}
