@@ -186,3 +186,6 @@ clearAllItems.addEventListener("click", () => {
     localStorage.setItem("listItems", JSON.stringify(newListItemArray));
     window.location.reload();
 })
+
+
+console.log("Waka time");
